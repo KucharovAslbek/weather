@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Weather</title>
+        <link rel="shortcut icon" href="img/favicon.ico" />
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&amp;display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="css/style.min.css" />
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="weather-card"></div>
+            <div class="enter-city-name">
+                <input type="text" placeholder="Shaxar nomini kiriting..." class="city-input" />
+                <div class="error">Shaxar nomi noto'g'ri yo'ki HTTP so'rov hatoligi.</div>
+                <button class="find-weather">
+                    Find
+                    <svg xmlns="http://www.w3.org/2000/svg" class="search-icon"  width="15" height="15" viewBox="0 0 20 20" stroke-width="2" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z"/>
+                        <circle cx="10" cy="10" r="7" />
+                        <line x1="21" y1="21" x2="15" y2="15" />
+                    </svg>                      
+                </button>
+            </div>
+        </div>
+        <script src="js/script.min.js"></script>
+    </body>
+</html>
